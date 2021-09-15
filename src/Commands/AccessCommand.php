@@ -1,10 +1,10 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace GetThingsDone\Access\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class AccessCommand extends Command
 {
     public $signature = 'skeleton';
 

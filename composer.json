@@ -1,12 +1,12 @@
 {
-    "name": "get-things-done/package-skeleton-laravel",
-    "description": "This is my package package-skeleton-laravel",
+    "name": "get-things-done/access",
+    "description": "This is my package access",
     "keywords": [
         "get-things-done",
         "laravel",
-        "package-skeleton-laravel"
+        "access"
     ],
-    "homepage": "https://github.com/get-things-done/package-skeleton-laravel",
+    "homepage": "https://github.com/get-things-done/access",
     "license": "MIT",
     "authors": [
         {
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "GetThingsDone\\PackageSkeletonLaravel\\": "src",
-            "GetThingsDone\\PackageSkeletonLaravel\\Database\\Factories\\": "database/factories"
+            "GetThingsDone\\Access\\": "src",
+            "GetThingsDone\\Access\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GetThingsDone\\PackageSkeletonLaravel\\Tests\\": "tests"
+            "GetThingsDone\\Access\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -53,10 +53,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GetThingsDone\\PackageSkeletonLaravel\\PackageSkeletonLaravelServiceProvider"
+                "GetThingsDone\\Access\\AccessServiceProvider"
             ],
             "aliases": {
-                "PackageSkeletonLaravel": "GetThingsDone\\PackageSkeletonLaravel\\PackageSkeletonLaravelFacade"
+                "Access": "GetThingsDone\\Access\\AccessFacade"
             }
         }
     },
