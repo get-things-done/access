@@ -2,9 +2,9 @@
 
 namespace GetThingsDone\Access;
 
+use GetThingsDone\Access\Commands\AccessCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use GetThingsDone\Access\Commands\AccessCommand;
 
 class AccessServiceProvider extends PackageServiceProvider
 {
